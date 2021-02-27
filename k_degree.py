@@ -6,8 +6,6 @@ import sys
 import os
 import time
 
-# degreeList = [5, 5, 4, 3, 3, 3, 2, 2, 1, 1]
-
 def construct_graph(tab_index, anonymized_degree):
     graph = nx.Graph()
     if sum(anonymized_degree) % 2 == 1:
@@ -132,7 +130,7 @@ if __name__ == "__main__":
         file_graph = sys.argv[2]
         G = nx.Graph()
         G = nx.read_gml(file_graph)
-        d = [5,5,4,3,2,2,1]  #[x[1] for x in G.degree()]
+        d = [x[1] for x in G.degree()]
         array_index = np.argsort(d)[::-1]
         array_degrees =  np.sort(d)[ ::-1 ]
         degreeSumOriginal = sum(array_degrees)
@@ -149,6 +147,7 @@ if __name__ == "__main__":
         array_degrees_greedy = array_degrees
         greedy_rec_algorithm(array_degrees_greedy, k_degree, 0, k_degree)
         degreeSumGreedy = sum(array_degrees_greedy)
+
         graph_DP = construct_graph(array_index , array_degrees_DP)
         if graph_DP is not None:
                     print("Average Clustering:{}".format(nx.average_clustering(graph_DP)))
@@ -160,6 +159,7 @@ if __name__ == "__main__":
                     print("Average Clustering:{}".format(nx.average_clustering(graph_DP_optimized)))
         else:
                     print("Cant construct a Graph for Optimized Dynamic Alg")
+                    
         graph_greedy = construct_graph(array_index, array_degrees_greedy)
         if graph_greedy is not None:
                     print("Average Clustering:{}".format(nx.average_clustering(graph_greedy)))
