@@ -27,12 +27,25 @@ def construct_graph(tab_index, anonymized_degree):
                 graph.add_edge(tab_index[v], tab_index[index])
                 anonymized_degree[index] = anonymized_degree[index] - 1
 
+
 def calcualte_cost(original_list, modified_list):
     cost = 0
     for i in range(len(modified_list)):
         cost = cost + abs(modified_list[i] - original_list[i])
     return cost
 
+def plotGraph(perfRatioOptimised):
+        fig = plt.figure()
+        ax = fig.add_axes([0,0,1,1])
+        k = perfRatioOptimised.keys()
+        R = perfRatioOptimised.values()
+        X = np.arange(len(perfRatioOptimised.keys()))
+        plt.xlabel("Degree K")
+        plt.ylabel("Performance Ratio")
+        ax.bar(k,R)
+        plt.show()
+        ax.bar(k,R)
+        plt.show()  
 
 def put_in_same_group(sequence):
     newSequence = []
@@ -127,13 +140,12 @@ def greedy_rec_algorithm(array_degrees_greedy, k_degree, pos_init, extension):
 
 if __name__ == "__main__":
         timeArr = []
-        # k_degree = int(sys.argv[1])
         file_graph = sys.argv[1]
         perfRatio = {}
         perfRatioOptimised = {}
         G = nx.Graph()
         G = nx.read_gml(file_graph)    
-        d = [x[1] for x in G.degree()]
+        d = [10,1,2,3,1,2,3,10,9,9,9,9,8,8,8,6,6,4,4,5]#[x[1] for x in G.degree()]
         print(len(d))
         array_index = np.argsort(d)[::-1]
         array_degrees =  np.sort(d)[ ::-1 ]
@@ -164,11 +176,13 @@ if __name__ == "__main__":
             timeArr.append(time.time() - start)
             degreeSumGreedy = sum(array_degrees_greedy)
             print(array_degrees_greedy, degreeSumGreedy)
+            
             graph_DP = construct_graph(array_index , array_degrees_DP)
             if graph_DP is not None:
-                        print("Average Clustering:{}".format(nx.average_clustering(graph_DP)))
+                        print("Nodes in DPO :{}".format(nx.nodes(graph_DP)))
+                        print("Edges in DPO :{}".format(nx.edges(graph_DP)))
             else:
-                        print("Cant construct a Graph for Dynamic Alg")
+                        print("Cant construct a Graph for Optimized Dynamic Alg")
 
             graph_DP_optimized = construct_graph(array_index , array_degrees_DPO)
             if graph_DP_optimized is not None:
@@ -195,21 +209,11 @@ if __name__ == "__main__":
                 except:
                     perfRatioOptimised[k_degree] = 0
             
+        
         print(perfRatio, perfRatioOptimised)
-            
-        fig = plt.figure()
-        ax = fig.add_axes([0,0,1,1])
-        k = perfRatioOptimised.keys()
-        R = perfRatioOptimised.values()
-        X = np.arange(len(perfRatioOptimised.keys()))
-        plt.xlabel("Degree K")
-        plt.ylabel("Performance Ratio")
-        ax.bar(k,R)
-        plt.show()
- 
 
-        ax.bar(k,R)
-        plt.show()    
+        plotGraph(perfRatio) 
+        plotGraph(perfRatioOptimised) 
         
         
 
