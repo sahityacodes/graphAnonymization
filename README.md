@@ -1,2 +1,1 @@
-# graphAnonymization
-# Towards Identity Anonymization on Graphs
+# Python Implementation of 'Towards Identity Anonymization on Graphs' Paper
