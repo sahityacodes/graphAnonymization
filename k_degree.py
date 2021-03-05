@@ -145,7 +145,7 @@ if __name__ == "__main__":
         perfRatioOptimised = {}
         G = nx.Graph()
         G = nx.read_gml(file_graph)    
-        d = [10,1,2,3,1,2,3,10,9,9,9,9,8,8,8,6,6,4,4,5]#[x[1] for x in G.degree()]
+        d = [x[1] for x in G.degree()]#[10,1,2,3,1,2,3,10,9,9,9,9,8,8,8,6,6,4,4,5]
         print(len(d))
         array_index = np.argsort(d)[::-1]
         array_degrees =  np.sort(d)[ ::-1 ]
