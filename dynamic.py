@@ -10,7 +10,7 @@ def putInSameGroup(sequence):
     return cost, new_sequence
 
 
-def memorizedDynamicProgramingGraphAnonymization(k, degree_sequence, optimization = False, cache = dict()):
+def memorizedDynamicProgramingGraphAnonymization(k, degree_sequence, optimization = False, cache=dict()):
 
     if not cache:
         cache = dict()

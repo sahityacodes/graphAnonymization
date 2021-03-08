@@ -1,0 +1,91 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 180">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-3 {
+        isolation: isolate;
+        font-size: 22px;
+        font-family: ArialMT, Arial;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="0 180 0 0 270 0 270 180 0 180"/>
+  <g id="node1">
+    <circle class="cls-2" cx="239" cy="85" r="24"/>
+    <text class="cls-3" transform="translate(232.88 92)">1</text>
+  </g>
+  <g id="node2">
+    <circle class="cls-2" cx="189" cy="137" r="24"/>
+    <text class="cls-3" transform="translate(182.88 144)">2</text>
+  </g>
+  <g id="edge5">
+    <g>
+      <path class="cls-4" d="M220,100c-3.4,4.07-7.25,8.15-10.94,11.91" transform="translate(2 2)"/>
+      <polygon points="208.5 109.35 206 119 215.61 116.34 208.5 109.35"/>
+    </g>
+  </g>
+  <g id="node3">
+    <circle class="cls-2" cx="111" cy="149" r="24"/>
+    <text class="cls-3" transform="translate(104.88 156)">3</text>
+  </g>
+  <g id="edge6">
+    <g>
+      <path class="cls-4" d="M163,139c-7.49.75-15.53,2.06-22.88,3.09" transform="translate(2 2)"/>
+      <polygon points="142.88 138.89 135 145 144.23 148.77 142.88 138.89"/>
+    </g>
+  </g>
+  <g id="node5">
+    <circle class="cls-2" cx="172" cy="60" r="24"/>
+    <text class="cls-3" transform="translate(165.88 67)">5</text>
+  </g>
+  <g id="edge9">
+    <g>
+      <path class="cls-4" d="M180.36,104c-1.78-7.33-3.85-15.24-5.36-22" transform="translate(2 2)"/>
+      <polygon points="186.82 103.44 184 113 177.13 105.78 186.82 103.44"/>
+    </g>
+  </g>
+  <g id="node4">
+    <circle class="cls-2" cx="94" cy="72" r="24"/>
+    <text class="cls-3" transform="translate(87.88 79)">4</text>
+  </g>
+  <g id="edge7">
+    <g>
+      <path class="cls-4" d="M104,123c-1.51-6.77-3.58-14.68-5.36-22" transform="translate(2 2)"/>
+      <polygon points="105.87 103.22 99 96 96.18 105.56 105.87 103.22"/>
+    </g>
+  </g>
+  <g id="edge3">
+    <g>
+      <path class="cls-4" d="M123.13,65.16c7.89-1,16-2.39,22.87-3.16" transform="translate(2 2)"/>
+      <polygon points="127.21 71.83 118 68 125.92 61.94 127.21 71.83"/>
+    </g>
+  </g>
+  <g id="edge4">
+    <g>
+      <path class="cls-4" d="M199.6,68.83,214,75" transform="translate(2 2)"/>
+      <polygon points="200.97 75.98 195 68 204.9 66.82 200.97 75.98"/>
+    </g>
+  </g>
+  <g id="node6">
+    <circle class="cls-2" cx="31" cy="31" r="24"/>
+    <text class="cls-3" transform="translate(24.88 38)">6</text>
+  </g>
+  <g id="edge2">
+    <g>
+      <path class="cls-4" d="M55,46c5.7,3.67,11.91,7.33,17,11" transform="translate(2 2)"/>
+      <polygon points="55.42 52.94 51 44 60.95 44.64 55.42 52.94"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 180">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-3 {
+        isolation: isolate;
+        font-size: 22px;
+        font-family: ArialMT, Arial;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="0 180 0 0 270 0 270 180 0 180"/>
+  <g id="node1">
+    <circle class="cls-2" cx="239" cy="85" r="24"/>
+    <text class="cls-3" transform="translate(232.88 92)">1</text>
+  </g>
+  <g id="node2">
+    <circle class="cls-2" cx="189" cy="137" r="24"/>
+    <text class="cls-3" transform="translate(182.88 144)">2</text>
+  </g>
+  <g id="edge5">
+    <path class="cls-4" d="M220,100c-5,6-11,12-16,17" transform="translate(2 2)"/>
+  </g>
+  <g id="node3">
+    <circle class="cls-2" cx="111" cy="149" r="24"/>
+    <text class="cls-3" transform="translate(104.88 156)">3</text>
+  </g>
+  <g id="edge6">
+    <path class="cls-4" d="M163,139c-10,1-21,3-30,4" transform="translate(2 2)"/>
+  </g>
+  <g id="node5">
+    <circle class="cls-2" cx="172" cy="60" r="24"/>
+    <text class="cls-3" transform="translate(165.88 67)">5</text>
+  </g>
+  <g id="edge9">
+    <path class="cls-4" d="M182,111c-2-9-5-20-7-29" transform="translate(2 2)"/>
+  </g>
+  <g id="node4">
+    <circle class="cls-2" cx="94" cy="72" r="24"/>
+    <text class="cls-3" transform="translate(87.88 79)">4</text>
+  </g>
+  <g id="edge7">
+    <path class="cls-4" d="M104,123c-2-9-5-20-7-29" transform="translate(2 2)"/>
+  </g>
+  <g id="edge3">
+    <path class="cls-4" d="M116,66c10-1,21-3,30-4" transform="translate(2 2)"/>
+  </g>
+  <g id="edge4">
+    <path class="cls-4" d="M193,66l21,9" transform="translate(2 2)"/>
+  </g>
+  <g id="node6">
+    <circle class="cls-2" cx="31" cy="31" r="24"/>
+    <text class="cls-3" transform="translate(24.88 38)">6</text>
+  </g>
+  <g id="edge2">
+    <path class="cls-4" d="M49,42c7,5,16,10,23,15" transform="translate(2 2)"/>
+  </g>
+</svg>
