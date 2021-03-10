@@ -76,6 +76,7 @@ def memorizedDPGraphAnonymization(k, degree_sequence, optimization = False, cach
         for chunk in range(lower_range, upper_range):
             to_anonymize = degree_sequence[0: chunk]
             in_same_group = degree_sequence[chunk: number_of_nodes]
+            
             if (chunk, number_of_nodes) in cache.keys():
                 record_found = cache.get((chunk, number_of_nodes))
                 chunk_cost, anonymized_chunk = record_found[0], record_found[1]
