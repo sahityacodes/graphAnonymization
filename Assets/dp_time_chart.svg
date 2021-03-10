@@ -1,0 +1,133 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 461.63 202.27">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-11, .cls-16, .cls-2, .cls-4 {
+        fill: #1d1d1b;
+      }
+
+      .cls-4 {
+        font-size: 18px;
+      }
+
+      .cls-11, .cls-16, .cls-4 {
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-5 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        font-size: 14px;
+      }
+
+      .cls-12 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-16 {
+        font-size: 12px;
+      }
+
+      .cls-17 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-18 {
+        font-family: TimesNewRomanPSMT, Times New Roman;
+      }
+
+      .cls-19 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-21 {
+        letter-spacing: -0.01em;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="102.15" y1="62.09" x2="365.86" y2="62.09"/>
+  <g>
+    <line class="cls-1" x1="102.15" y1="62.09" x2="102.15" y2="81.4"/>
+    <path class="cls-2" d="M182.2,326.39c-2.1-5.68-5.7-12.73-9.51-17.1l9.51,3.44,9.51-3.44C187.91,313.66,184.31,320.71,182.2,326.39Z" transform="translate(-80.06 -232.91)"/>
+  </g>
+  <line class="cls-1" x1="234" y1="30.7" x2="234" y2="62.09"/>
+  <g>
+    <line class="cls-1" x1="365.86" y1="62.09" x2="365.86" y2="81.4"/>
+    <path class="cls-2" d="M445.92,326.39c-2.11-5.68-5.71-12.73-9.52-17.1l9.52,3.44,9.51-3.44C451.62,313.66,448,320.71,445.92,326.39Z" transform="translate(-80.06 -232.91)"/>
+  </g>
+  <line class="cls-3" x1="32.63" y1="144.57" x2="171.66" y2="144.57"/>
+  <g>
+    <line class="cls-3" x1="32.63" y1="144.57" x2="32.63" y2="158.61"/>
+    <polygon class="cls-2" points="32.63 165.67 28.57 155.72 32.63 158.08 36.7 155.72 32.63 165.67"/>
+  </g>
+  <line class="cls-3" x1="102.15" y1="123.48" x2="102.15" y2="144.57"/>
+  <g>
+    <line class="cls-3" x1="171.66" y1="144.57" x2="171.66" y2="158.61"/>
+    <polygon class="cls-2" points="171.66 165.67 167.59 155.72 171.66 158.08 175.72 155.72 171.66 165.67"/>
+  </g>
+  <text class="cls-4" transform="translate(154.47 15.07)"><tspan class="cls-5">D</tspan><tspan class="cls-6" x="12.24" y="0">ynamic </tspan><tspan class="cls-7" x="70.49" y="0">P</tspan><tspan class="cls-8" x="79.77" y="0">r</tspan><tspan class="cls-6" x="85.48" y="0">o</tspan><tspan class="cls-9" x="95.36" y="0">g</tspan><tspan class="cls-10" x="105.32" y="0">r</tspan><tspan x="111.11" y="0">aming</tspan></text>
+  <text class="cls-11" transform="translate(56.68 109.67)">Not <tspan class="cls-12" x="24.5" y="0">M</tspan><tspan x="35.84" y="0">emo</tspan><tspan class="cls-13" x="62.21" y="0">r</tspan><tspan x="66.85" y="0">i</tspan><tspan class="cls-14" x="70.13" y="0">z</tspan><tspan class="cls-15" x="76.02" y="0">ed</tspan></text>
+  <text class="cls-16" transform="translate(145.4 184.19)">Optimi<tspan class="cls-17" x="34.69" y="0">z</tspan><tspan x="39.74" y="0">ed</tspan><tspan class="cls-18"><tspan x="10.93" y="14.4">(1.3 s)</tspan></tspan></text>
+  <text class="cls-16" transform="translate(0 184.19)">Unoptimi<tspan class="cls-19" x="47.44" y="0">z</tspan><tspan x="52.49" y="0">ed</tspan><tspan class="cls-18"><tspan x="15.8" y="14.4">(140 s)</tspan></tspan></text>
+  <line class="cls-3" x1="296.34" y1="144.57" x2="435.37" y2="144.57"/>
+  <g>
+    <line class="cls-3" x1="296.34" y1="144.57" x2="296.34" y2="158.61"/>
+    <polygon class="cls-2" points="296.35 165.67 292.28 155.72 296.35 158.08 300.41 155.72 296.35 165.67"/>
+  </g>
+  <line class="cls-3" x1="365.86" y1="123.48" x2="365.86" y2="144.57"/>
+  <g>
+    <line class="cls-3" x1="435.37" y1="144.57" x2="435.37" y2="158.61"/>
+    <polygon class="cls-2" points="435.37 165.67 431.3 155.72 435.37 158.08 439.43 155.72 435.37 165.67"/>
+  </g>
+  <text class="cls-16" transform="translate(409.11 184.19)">Optimi<tspan class="cls-17" x="34.69" y="0">z</tspan><tspan x="39.74" y="0">ed</tspan><tspan class="cls-18"><tspan x="4.93" y="14.4">(0.016 s)</tspan></tspan></text>
+  <text class="cls-16" transform="translate(263.71 184.19)">Unoptimi<tspan class="cls-19" x="47.44" y="0">z</tspan><tspan x="52.49" y="0">ed</tspan><tspan class="cls-18"><tspan x="11.3" y="14.4">(0.025 s)</tspan></tspan></text>
+  <text class="cls-11" transform="translate(332.64 109.67)"><tspan class="cls-12">M</tspan><tspan x="11.34" y="0">emo</tspan><tspan class="cls-20" x="37.72" y="0">r</tspan><tspan x="42.35" y="0">i</tspan><tspan class="cls-21" x="45.63" y="0">z</tspan><tspan class="cls-15" x="51.52" y="0">ed</tspan></text>
+</svg>
