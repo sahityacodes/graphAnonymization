@@ -16,22 +16,28 @@ def compute_I(d):
         res += d_i - d_j
     return res
 
-def greedy_rec_algorithm(array_degrees , k_degree , pos_init , extension):
-    # complete this function
+def greedy_rec_algorithm(k_degree, array_degrees,  pos_init = 0, extension = int()):
+    
+    if not extension:
+        extension = k_degree
+
     modified_degrees = list(map(lambda x: x, array_degrees))
-    #print(modified_degrees)
+    
     if pos_init + extension >= len(modified_degrees) - 1:
         for i in range(pos_init , len(modified_degrees)):
             modified_degrees[ i ] = modified_degrees[ pos_init ]
             return modified_degrees
+        
     else:
         d1 = modified_degrees[ pos_init ]
         c_merge_cost = c_merge(modified_degrees , d1 , pos_init + extension)
         c_new_cost = c_new(array_degrees , pos_init + extension)
 
+        
         if c_merge_cost > c_new_cost:
             for i in range(pos_init , pos_init + extension):
                 modified_degrees[ i ] = d1
-            return greedy_rec_algorithm(modified_degrees , k_degree , pos_init + extension , k_degree)
+            return greedy_rec_algorithm(k_degree , modified_degrees , pos_init + extension , k_degree)
+        
         else:
-            return greedy_rec_algorithm(modified_degrees , k_degree , pos_init , extension + 1)
+            return greedy_rec_algorithm(k_degree , modified_degrees , pos_init , extension + 1)
