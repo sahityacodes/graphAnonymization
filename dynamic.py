@@ -91,5 +91,4 @@ def memorizedDPGraphAnonymization(k, degree_sequence, optimization = False, cach
             cost_vs_degree_sequences[chunk_cost] = anonymized_chunk
 
         return min(cost_vs_degree_sequences.items(), key = lambda x: x[0])
-
     
